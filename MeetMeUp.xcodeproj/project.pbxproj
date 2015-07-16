@@ -14,6 +14,8 @@
 		47EF7DC31B15042C00146790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EF7DC21B15042C00146790 /* Images.xcassets */; };
 		47EF7DC61B15042C00146790 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47EF7DC41B15042C00146790 /* LaunchScreen.xib */; };
 		47EF7DD21B15042C00146790 /* MeetMeUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7DD11B15042C00146790 /* MeetMeUpTests.m */; };
+		47EF7DDD1B1510CC00146790 /* MeetupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7DDC1B1510CC00146790 /* MeetupDetailViewController.m */; };
+		47EF7DE01B15FCCC00146790 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7DDF1B15FCCC00146790 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		47EF7DCB1B15042C00146790 /* MeetMeUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47EF7DD01B15042C00146790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47EF7DD11B15042C00146790 /* MeetMeUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeUpTests.m; sourceTree = "<group>"; };
+		47EF7DDB1B1510CC00146790 /* MeetupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetupDetailViewController.h; sourceTree = "<group>"; };
+		47EF7DDC1B1510CC00146790 /* MeetupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetupDetailViewController.m; sourceTree = "<group>"; };
+		47EF7DDE1B15FCCC00146790 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		47EF7DDF1B15FCCC00146790 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				47EF7DB91B15042C00146790 /* AppDelegate.h */,
 				47EF7DBA1B15042C00146790 /* AppDelegate.m */,
+				47EF7DDB1B1510CC00146790 /* MeetupDetailViewController.h */,
+				47EF7DDC1B1510CC00146790 /* MeetupDetailViewController.m */,
 				47EF7DBC1B15042C00146790 /* ViewController.h */,
 				47EF7DBD1B15042C00146790 /* ViewController.m */,
+				47EF7DDE1B15FCCC00146790 /* WebViewController.h */,
+				47EF7DDF1B15FCCC00146790 /* WebViewController.m */,
 				47EF7DBF1B15042C00146790 /* Main.storyboard */,
 				47EF7DC21B15042C00146790 /* Images.xcassets */,
 				47EF7DC41B15042C00146790 /* LaunchScreen.xib */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				47EF7DBE1B15042C00146790 /* ViewController.m in Sources */,
+				47EF7DE01B15FCCC00146790 /* WebViewController.m in Sources */,
+				47EF7DDD1B1510CC00146790 /* MeetupDetailViewController.m in Sources */,
 				47EF7DBB1B15042C00146790 /* AppDelegate.m in Sources */,
 				47EF7DB81B15042C00146790 /* main.m in Sources */,
 			);
